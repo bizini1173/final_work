@@ -8,7 +8,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string[] inputArray = { "Hello", "2", "world", "NO" };
+string[] inputArray = { "Hello", "5", "world", "YES" };
 
 // Фильтрация коротких строк
 string[] shortStrings = FilterShortStrings(inputArray);
@@ -48,4 +48,3 @@ string[] FilterShortStrings(string[] inputArray)
 
     return shortStrings;
 }
-
